@@ -110,6 +110,14 @@ class News extends StatelessWidget {
           ),
         ],
       ),
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {
+          // أضف وظيفتك هنا
+        },
+        backgroundColor: Colors.red,
+        child: Icon(Icons.favorite),
+      ),
+      floatingActionButtonLocation: FloatingActionButtonLocation.endFloat,
     );
   }
 }
